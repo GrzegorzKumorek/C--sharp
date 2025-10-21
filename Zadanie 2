@@ -1,4 +1,8 @@
-﻿using System.Drawing;
+//wlasnosc intelektualna grzesia prosze uzywac kodu jako inspiracji albo do rozwiania problemow
+//prosze nie powielac 1:1 dziekuje c:
+
+
+using System.Drawing;
 
 namespace LabPętle
 {
@@ -347,4 +351,5 @@ namespace LabPętle
 
 }
     
+
 
