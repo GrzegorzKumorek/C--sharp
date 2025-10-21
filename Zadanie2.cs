@@ -11,7 +11,7 @@ namespace LabPętle
         static void Main(string[] args)
         {
             // Sto();
-            // Sumka();
+             Sumka();
             //Granica();
             //Wzor();
             //Odsetki();
@@ -22,7 +22,7 @@ namespace LabPętle
             //Obrazek();
             //Blizniak();
             //Doskonala();
-            Obrazek2();
+            //Obrazek2();
             
 
         }
@@ -31,7 +31,7 @@ namespace LabPętle
         static void Sto()
         {
             int suma=0,ile=0;
-            while (suma < 100)
+            while (suma <= 100)
             {
 
                 Console.WriteLine("Podaj liczbe.");
@@ -49,11 +49,11 @@ namespace LabPętle
         {
             Console.Write("Program oblicza sume liczb od 1 do n.\n"+"Podaj n: ");
             int liczba = Convert.ToInt32(Console.ReadLine());
-            int n=0,suma=0;
+            int n=1,suma=0;
             Console.WriteLine();
             while (n < liczba)
             {
-                suma = suma + n;
+                suma = suma +n;
                 n++;
             }
             Console.WriteLine("Suma to "+suma);
@@ -113,7 +113,7 @@ namespace LabPętle
             Console.Write("Podaj liczbe calkowita b: ");
             int b = Convert.ToInt32(Console.ReadLine());
             int wynik = 1, licznik = 0;
-            while (a > 0 && b > 0 && licznik < b)
+            while (licznik < b)
             {
                 wynik = a * wynik;
                 licznik++;
@@ -351,5 +351,8 @@ namespace LabPętle
 
 }
     
+
+
+
 
 
