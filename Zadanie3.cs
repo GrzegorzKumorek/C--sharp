@@ -20,8 +20,10 @@ namespace Tablice
             //Transpozycja();
             //Binarka();
             //Spacje();
-            Slowa();
-              
+            //Slowa();
+            Nazwisko();
+
+
         }
         static void Zadanko1()
         {
@@ -258,6 +260,32 @@ namespace Tablice
                 suma++;
 
             Console.WriteLine(suma);
+        }
+        
+        
+        static void Nazwisko()
+        {
+
+            Console.WriteLine("Podaj imie");
+            string imie = Console.ReadLine();
+            imie += " ";
+            Console.WriteLine("Podaj nazwisko");
+            imie += Console.ReadLine();
+            string pierwsze = imie.Substring(0, imie.IndexOf(' '));
+            string nazwisko = imie.Substring(imie.IndexOf(' '));
+            Console.WriteLine("Podaj drugie imie");
+            string drugie = Console.ReadLine();
+            pierwsze += " ";
+            string wynik = pierwsze + drugie + nazwisko;
+            string[] czesci = wynik.Split(' ');
+            char i = czesci[0][0];
+            char d = czesci[1][0];
+            char n = czesci[2][0];
+            string inicjaly = i + "." + d + "." + n;
+            string wynik1 = inicjaly.ToUpper();
+            Console.WriteLine(wynik);
+            Console.WriteLine(wynik1);
+
         }
     }
 }

@@ -1,0 +1,29 @@
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\bin\Debug\net8.0\Tablice.exe
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\bin\Debug\net8.0\Tablice.deps.json
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\bin\Debug\net8.0\Tablice.runtimeconfig.json
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\bin\Debug\net8.0\Tablice.dll
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\bin\Debug\net8.0\Tablice.pdb
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.AssemblyInfoInputs.cache
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.AssemblyInfo.cs
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.csproj.CoreCompileInputs.cache
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.dll
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\refint\Tablice.dll
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.pdb
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\Tablice.genruntimeconfig.cache
+C:\Users\grzeg\Documents\meritum programowanie\Tablice\Tablice\obj\Debug\net8.0\ref\Tablice.dll
+C:\GrzesRepo\Tablice\Tablice\bin\Debug\net8.0\Tablice.exe
+C:\GrzesRepo\Tablice\Tablice\bin\Debug\net8.0\Tablice.deps.json
+C:\GrzesRepo\Tablice\Tablice\bin\Debug\net8.0\Tablice.runtimeconfig.json
+C:\GrzesRepo\Tablice\Tablice\bin\Debug\net8.0\Tablice.dll
+C:\GrzesRepo\Tablice\Tablice\bin\Debug\net8.0\Tablice.pdb
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.GeneratedMSBuildEditorConfig.editorconfig
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.AssemblyInfoInputs.cache
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.AssemblyInfo.cs
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.csproj.CoreCompileInputs.cache
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.sourcelink.json
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.dll
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\refint\Tablice.dll
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.pdb
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\Tablice.genruntimeconfig.cache
+C:\GrzesRepo\Tablice\Tablice\obj\Debug\net8.0\ref\Tablice.dll
