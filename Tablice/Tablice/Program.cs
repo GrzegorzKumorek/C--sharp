@@ -5,6 +5,7 @@
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic.FileIO;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -20,11 +21,14 @@ namespace Tablice
             //Dwuwymiarowka();
             //Transpozycja();
             //Binarka();
-            //Spacje();
+            Spacje();
             //Slowa();
             //Nazwisko();
-            Porownanie();
+            //Porownanie();
+            //Przerwa();
+            //Data();
         }
+        //3.1
         static void Zadanko1()
         {
             bool poprawne = false;
@@ -88,11 +92,12 @@ namespace Tablice
             }
 
         }
+        //3.2
         static void Srednia()
         {
             int[] tab = new int[20];
             double srednia=0;
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < tab.Length; i++)
             {
                 tab[i] = i+1;
             }
@@ -100,8 +105,10 @@ namespace Tablice
             {
                 srednia += wartosc;
             }
-            Console.WriteLine(srednia/20);
+            Console.WriteLine(srednia/tab.Length);
         }  
+        
+        //3.3
         static void Najmniejsza()
         {
             byte[] liczby1 = {
@@ -119,7 +126,7 @@ namespace Tablice
                 187, 198, 209, 220, 231, 242, 253, 25, 50, 75
             };
 
-            byte mniejsza =255;
+            byte mniejsza =liczby[0];
             int pozycja = 0;
             for (int i = 0; i < liczby.Length; i++)
             {
@@ -134,16 +141,27 @@ namespace Tablice
             }
             Console.WriteLine("Najmniejsza liczba w tablicy to: " + mniejsza + " o indeksie: " + pozycja);
         }
+        
+        //3.4
         static void Dwuwymiarowka()
         {
             int suma=0,j=0;
-            int[,] tab ={
+            int[,] tab1 ={
                 { 3, 7, 1, 9, 5 },
                 { 4, 2, 8, 6, 0 },
                 { 9, 1, 3, 7, 2 },
                 { 5, 8, 4, 0, 6 },
                 { 2, 9, 7, 1, 3 }
             };
+            var rnd = new Random();
+            int[,] tab = new int[5, 5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int k = 0; k < 5; k++)
+                {
+                    tab[i, k] = rnd.Next(0, 10);
+                }
+            }
             for (int i = 0; i < 5; i++) 
             {
                 suma += tab[i,j];
@@ -158,6 +176,7 @@ namespace Tablice
             suma -= tab[2, 2];
             Console.WriteLine("Suma przekatnych tablicy: " + suma);
         }
+        //3.5
         static void Transpozycja()
         {
             int[,] tab ={
@@ -186,7 +205,9 @@ namespace Tablice
                 Console.WriteLine();
             }
         }
-       static void Binarka()
+       
+        //3.6
+        static void Binarka()
         {
             bool[] tab=new bool[8];
             double suma = 0;
@@ -205,6 +226,8 @@ namespace Tablice
             }
             Console.WriteLine(suma);
         }
+        
+        //3.7
         static void Spacje()
         {
             string tekst1= "Ala    ma     kota   który  lubi     spać na słońcu i    " +
@@ -229,6 +252,8 @@ namespace Tablice
             Console.WriteLine(nowytekst);
 
         }
+        
+        //3.8
         static void Slowa()
         {
             string tekst1 = "Ala    ma     kota   który  lubi     spać na słońcu i    " +
@@ -263,7 +288,7 @@ namespace Tablice
         }
 
 
-
+        //3.9
         static void Nazwisko()
         {
             
@@ -288,13 +313,25 @@ namespace Tablice
             Console.WriteLine(wynik1);
 
         }
+        
+        //3.10
         static void Data()
         {
             string data1 = "KlAB-2021-12-25-klej";
             string data2 = "FaZXXX-2022-11-23-farba";
             string data3 = "TaBEWYT-2023-01-13-tapeta";
-
+            string[] buf1= data1.Split("-");
+            string wynik1 = buf1[3]+" " + buf1[2]+" "+ buf1[1];
+            string[] buf2 = data2.Split("-");
+            string wynik2 = buf2[3] + " " + buf2[2] + " " + buf2[1];
+            string[] buf3 = data3.Split("-");
+            string wynik3 = buf3[3] + " " + buf3[2] + " " + buf3[1];
+            Console.WriteLine(wynik1);
+            Console.WriteLine(wynik2);
+            Console.WriteLine(wynik3);
         }
+        
+        //3.11
         static void Porownanie()
         {
             string a = "aaabbbcccdddeee";
@@ -314,6 +351,21 @@ namespace Tablice
                 }
             }
             Console.Write(c);
+        }
+        
+        //3.12
+        static void Przerwa()
+        {
+            string tekst;
+             tekst = Console.ReadLine();
+            foreach(char t in tekst)
+            {
+                if(t!=' ')
+                {
+                    Console.Write(t + " ");
+                }
+            }
+
         }
     }
 }
