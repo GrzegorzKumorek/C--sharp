@@ -22,7 +22,8 @@ namespace Tablice
             //Binarka();
             //Spacje();
             //Slowa();
-            Nazwisko();
+            //Nazwisko();
+            Porownanie();
         }
         static void Zadanko1()
         {
@@ -287,6 +288,32 @@ namespace Tablice
             Console.WriteLine(wynik1);
 
         }
+        static void Data()
+        {
+            string data1 = "KlAB-2021-12-25-klej";
+            string data2 = "FaZXXX-2022-11-23-farba";
+            string data3 = "TaBEWYT-2023-01-13-tapeta";
 
+        }
+        static void Porownanie()
+        {
+            string a = "aaabbbcccdddeee";
+            string b = "aaacccbbbdddeee";
+            string c = "";
+            if (a.Length == b.Length)
+            {
+                for (int i = 0; i < a.Length; i++)
+                {
+                    if (a[i] == b[i])
+                    {
+                        c += a[i];
+                    }
+                    else
+                        c += '?';
+
+                }
+            }
+            Console.Write(c);
+        }
     }
 }
