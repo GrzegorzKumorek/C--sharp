@@ -1,0 +1,26 @@
+﻿<Window x:Class="Pająk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PajakOverlay"
+        Width="800" Height="450"
+
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Topmost="True"
+        ShowInTaskbar="False"
+        Focusable="False">
+
+    <!-- Canvas umożliwia swobodne pozycjonowanie -->
+    <Canvas x:Name="MainCanvas" SnapsToDevicePixels="True">
+
+        <!-- Nasz pająk -->
+        <Image x:Name="SpiderImage"
+               Width="128" Height="128"
+               RenderOptions.BitmapScalingMode="HighQuality"
+               Source="pack://application:,,,/Assets/Spider.png"
+               Canvas.Left="0" Canvas.Top="0" />
+    </Canvas>
+</Window>
+
